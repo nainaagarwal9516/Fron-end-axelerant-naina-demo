@@ -1,0 +1,38 @@
+.Testimonials {
+    position: absolute;
+    top: 1250px;
+    height: 100%;
+    width: 100%;
+    background: darken( #fff, 20%);
+    z-index: -444;
+
+    .Testimonials1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    -ms-grid-column-align: center;
+    grid-row-gap:4em; 
+  
+  .Rounded_Rectangle_2 {
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(239, 237, 235);
+      background: #fff;
+      margin-left: 2em;
+      top: 1409px;
+      width: 350px;
+      height: 236px;
+      padding: 5px;
+      font-size: 25px;
+      align-content: flex-end;
+      z-index: 40;
+      
+  }
+  .Client{
+    margin-left: 2em;
+  }
+ 
+}
+}
+ 
+  
+  

@@ -1,0 +1,28 @@
+@import "navbar";
+@import "Testimonials"; 
+@import "Getintouch";
+@import "About";
+@import "landingbanner";
+@import "Footer";
+@import "variables";
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background:white;
+  margin: 0 0 0 0;
+}
+
+
+
+  @media screen and (min-width: 768px) {
+    .About {
+      width: 100%;
+    }
+  }
+  @media (min-width: 992px) {
+    .About {
+      width: 100%;    }
+  }

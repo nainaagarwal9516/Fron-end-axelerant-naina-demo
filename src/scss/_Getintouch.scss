@@ -1,0 +1,53 @@
+.Get_In_Touch_Form {
+  position: absolute;
+  background-image: url("images/Layer 8.png");
+  width: 100%;
+  height:70%;
+  margin-top: 1100px;
+  z-index: -100;
+  color: white;
+  padding: 2em 0em 0 20em;
+
+  textarea {
+    width: 668px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  .Btn {
+    border-color:$secondary-color;
+    background-color: $secondary-color;
+    color: white;
+    padding: 8px 20px;
+    margin-left:300px;
+    border-radius: 15px;
+    display: cursor;
+    &:hover{
+      opacity: 0.7;
+      display: cursor;
+    }
+  }
+  form, .form-fields {
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    
+    
+  }
+  .field-style{
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+}
+  

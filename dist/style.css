@@ -1,0 +1,237 @@
+.navbar-1 li > .Btn {
+  border-color: orangered;
+  background-color: orangered;
+  color: white;
+  padding: 6px 18px;
+  margin: 8px;
+  border-radius: 15px;
+  display: cursor; }
+  .navbar-1 li > .Btn:hover {
+    opacity: 0.7;
+    display: cursor; }
+
+.navbar-1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black; }
+
+.navbar-1 li {
+  float: right; }
+
+.navbar-1 li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.navbar-1 li a:hover:not(.active) {
+  background-color: #111; }
+
+.navbar-1 .active {
+  border-bottom: orangered; }
+
+.Testimonials {
+  position: absolute;
+  top: 1250px;
+  height: 100%;
+  width: 100%;
+  background: #cccccc;
+  z-index: -444; }
+  .Testimonials .Testimonials1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-column-align: center;
+    grid-row-gap: 4em; }
+    .Testimonials .Testimonials1 .Rounded_Rectangle_2 {
+      border-style: solid;
+      border-width: 1px;
+      border-color: #efedeb;
+      background: #fff;
+      margin-left: 2em;
+      top: 1409px;
+      width: 350px;
+      height: 236px;
+      padding: 5px;
+      font-size: 25px;
+      align-content: flex-end;
+      z-index: 40; }
+    .Testimonials .Testimonials1 .Client {
+      margin-left: 2em; }
+
+.Get_In_Touch_Form {
+  position: absolute;
+  background-image: url("images/Layer 8.png");
+  width: 100%;
+  height: 70%;
+  margin-top: 1100px;
+  z-index: -100;
+  color: white;
+  padding: 2em 0em 0 20em; }
+  .Get_In_Touch_Form textarea {
+    width: 668px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none; }
+  .Get_In_Touch_Form .Btn {
+    border-color: orangered;
+    background-color: orangered;
+    color: white;
+    padding: 8px 20px;
+    margin-left: 300px;
+    border-radius: 15px;
+    display: cursor; }
+    .Get_In_Touch_Form .Btn:hover {
+      opacity: 0.7;
+      display: cursor; }
+  .Get_In_Touch_Form form, .Get_In_Touch_Form .form-fields {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 5px;
+    padding: 10px; }
+  .Get_In_Touch_Form .field-style {
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px; }
+
+.About {
+  padding-top: 0px; }
+  .About .Mauris_id_bibendum_est__Proin_dapibus_sollicitu {
+    background-image: url("images/Mauris id bibendum est. Proin dapibus sollicitudin iaculis, Mae.png");
+    position: absolute;
+    margin: 0px;
+    left: 85px;
+    top: 793px;
+    width: 523px;
+    height: 90px;
+    z-index: 16; }
+  .About .In_maximus_euismod_egestas__Fusce_tincidunt_pos {
+    background-image: url("images/In maximus euismod egestas. Fusce tincidunt posuere est non ele.png");
+    position: absolute;
+    left: 84px;
+    top: 905px;
+    width: 581px;
+    height: 113px;
+    z-index: 15; }
+  .About .Layer_26 {
+    background-image: url("images/Layer 26.png");
+    position: absolute;
+    left: 682px;
+    top: 777px;
+    width: 600px;
+    height: 336px;
+    z-index: 14; }
+
+.landing_banner {
+  background-image: url("images/Layer_1.png");
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: -3;
+  overflow: visible; }
+  .landing_banner .Integer_bibendum_sit_amet__arcu_vel_egestas_ {
+    background-image: url("images/Integer bibendum sit amet  arcu vel egestas..png");
+    position: absolute;
+    left: 455px;
+    top: 198px;
+    width: 460px;
+    height: 79px;
+    z-index: 5; }
+  .landing_banner .staffing_icon_2 {
+    background-image: url("images/staffing-icon-2.png");
+    position: absolute;
+    left: 449px;
+    top: 355px;
+    width: 62px;
+    height: 62px;
+    z-index: 6; }
+  .landing_banner .stock_vector_technical_support_icon_602881037 {
+    background-image: url("images/stock-vector-technical-support-icon-602881037.png");
+    position: absolute;
+    left: 652px;
+    top: 356px;
+    width: 63px;
+    height: 65px;
+    z-index: 11; }
+  .landing_banner .folder_sans_settings_128 {
+    background-image: url("images/folder_sans_settings-128.png");
+    position: absolute;
+    left: 850px;
+    top: 357px;
+    width: 72px;
+    height: 63px;
+    z-index: 10; }
+  .landing_banner .Service_Name_1 {
+    background-image: url("images/Service Name.png");
+    position: absolute;
+    left: 428px;
+    top: 436px;
+    width: 103px;
+    height: 13px;
+    z-index: 7; }
+  .landing_banner .Service_Name {
+    background-image: url("images/Service Name.png");
+    position: absolute;
+    left: 837px;
+    top: 436px;
+    width: 103px;
+    height: 13px;
+    z-index: 9; }
+  .landing_banner .Service_Name_2 {
+    background-image: url("images/Service Name.png");
+    position: absolute;
+    left: 631px;
+    top: 436px;
+    width: 103px;
+    height: 13px;
+    z-index: 8; }
+
+.footer {
+  height: 150px;
+  width: 100%;
+  margin-top: 1540px;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: black;
+  z-index: -333; }
+  .footer ul {
+    list-style-type: none;
+    margin: 25px;
+    padding: 60px;
+    overflow: hidden; }
+  .footer li {
+    float: right;
+    color: white; }
+  .footer li a {
+    display: block;
+    color: white;
+    text-decoration: none; }
+  .footer li a:hover {
+    color: blue; }
+  .footer i {
+    margin-left: 10px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background: white;
+  margin: 0 0 0 0; }
+
+@media screen and (min-width: 768px) {
+  .About {
+    width: 100%; } }
+
+@media (min-width: 992px) {
+  .About {
+    width: 100%; } }

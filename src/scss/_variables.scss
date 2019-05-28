@@ -1,0 +1,10 @@
+$primary-color: black;
+$secondary-color: orangered;
+
+@function Set_color($color){
+  @if(lightness($color) > 20){
+    @return black;
+  }@else{
+    @return white;
+  }
+}
